@@ -32,7 +32,7 @@ For your first exercise you are going to write a program in your Arduino IDE and
 
 ![](ide.png)
 
-Now we’re going to write a program. Type the following into the white box. 
+Now we’re going to write a program. Type the following into the white box. Try to type as accurately as you can. Notice that ```All``` is spelt with an upper case ```A``` and lower case ```ll```.
 
 ```
 #include  <EngduinoLEDs.h>
