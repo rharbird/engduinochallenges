@@ -1,3 +1,7 @@
 {
-    "plugins": ["mathjax"]
+    "plugins": [
+        "mathjax",
+        "gitbook-plugin-google_code_prettify"
+    ],
+    "pluginsConfig": {}
 }
