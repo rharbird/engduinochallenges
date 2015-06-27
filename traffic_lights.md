@@ -26,3 +26,5 @@ For your first exercise you are going to write a program in your Arduino IDE and
 ![Arduino IDE](../steinemandhughes.gif)
 
 ![Arduino IDE](ide.png)
+
+![Applw](https://en.wikipedia.org/wiki/Apple#/media/File:Red_Apple.jpg)
