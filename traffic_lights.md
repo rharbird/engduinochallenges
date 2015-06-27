@@ -8,6 +8,8 @@ The Engduino is just a simple, small, computer that is capable of measuring quit
 For those who know about these things, the Engduino is, at heart, an Arduino (just a brand of simple computer). Your Engduino board comes pre-fitted with some sensors and LEDs so we can get straight into experimenting with programming the board without needing to do any construction beforehand.
 
 
+| ![Front ](front.JPG) | ![Back](back.JPG)|
+| -- | -- |
 
 Figure 1: The top and bottom of your Engduino
  
@@ -23,10 +25,5 @@ The LEDS are numbered 0 – 15 and their exact positions can be seen in ???. Als
 ## Your first app
 For your first exercise you are going to write a program in your Arduino IDE and then upload it to your Engduino board. If this is a lab class, your Arduino IDE should be open for you already. If not, just double click on the blue Arduino icon on your computer. You should see a window like that shown below:
 
-![Arduino IDE](../steinemandhughes.gif)
-
-![Arduino IDE](ide.png)
-
-![Applw](https://en.wikipedia.org/wiki/Apple#/media/File:Red_Apple.jpg)
 
 ![](engduino.jpg)
