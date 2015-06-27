@@ -34,7 +34,7 @@ For your first exercise you are going to write a program in your Arduino IDE and
 
 Now we’re going to write a program. Type the following into the white box. 
 
-````#include  <EngduinoLEDs.h>
+```#include  <EngduinoLEDs.h>
 
 void setup()
 {
@@ -46,7 +46,6 @@ void loop()
 {
   EngduinoLEDs.setAll(GREEN);
 }
-```
-```mbmnbmnb```
+````
 
 
