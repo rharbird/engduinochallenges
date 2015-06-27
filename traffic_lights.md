@@ -10,7 +10,8 @@ For those who know about these things, the Engduino is, at heart, an Arduino (ju
 
 | ![Front ](front.JPG) | ![Back](back.JPG)|
 |---|---|
-|         Front|           Back|
+| Top | Bottom |
+
 
 Figure 1: The top and bottom of your Engduino
  
@@ -50,6 +51,49 @@ void loop()
 }
 
 ```
+Now let’s make it run…. make sure your Engduino is plugged in. Click on the upload button:
+
+
+![](ide1.jpg)
+
+
+This checks your code for some types of error, turns it into something that a machine can understand, and then uploads it to the Engduino board. If there are errors they will appear in the black section in red.
+
+Voila – your first Engduino program.
+
+
+## Looking a bit closer
+Now let’s take a quick look at some interesting parts of the basic app code and see how we can customise, personalise or enhance it.
+
+```#include  <EngduinoLEDs.h>```
+
+This lets your program use the LEDs. If you wanted to use the button you would have change this to be ```#include <EngduinoButton.h>```, and if you wanted to use both, you would need to have both there. There is at least one #include for each of the sensors on the Engduino.
+
+The next part of the program is:
+
+```void setup()
+{
+  EngduinoLEDs.begin();
+}```
+
+This is a function. A function is similar to the ones you may have experienced in mathematics. It can take some value/s and returns another value after it executes. void is what the function returns (nothing in this case), then comes the function name (setup in this case) and then brackets that contain the values we pass to the function (none in this case, so the brackets are empty.) The curly brackets delimit our code, so in a file with many functions everything within the set of curly brackets just after our function name belongs to that function. Our function ```setup()``` has just one line
+```EngduinoLEDs.begin();```
+
+This line tells the EngduinoLEDs object to run the function begin(), which gets the LEDs started so we can play with them. The semi-colon at the end of the line is common to many programming languages and signals to the computer that is the end of one instruction. Don’t forget these when you start writing your own code . The setup function runs exactly once, when the program starts.
+The next function:
+void loop()
+{
+  EngduinoLEDs.setAll(GREEN);
+}
+
+is called loop(). The loop function is run repeatedly – and it’s where we put most of the instructions we want our Engduino to perform. In this case, it’s just one thing:
+  EngduinoLEDs.setAll(GREEN);
+
+This line tells the EngduinoLEDs object to execute the function setAll(). We pass this function a value, namely what colour to make the LEDs (green in this case). It doesn’t return a value but simply does what you tell it, and switches the LEDs on.
+This line will actually be executed over and over as fast as the Engduino can go  – but since it always does the same thing, you won’t see any change.
+Personalise your a
+
+
 
 
 
