@@ -18,8 +18,11 @@ On the one side of your Engduino you have 16 LED lights that have adjustable bri
 Figure 2:  16 Red, Green, Blue LEDs on one side of the board
 
 
-The LEDS are numbered 0 – 15 and their exact positions can be seen in Appendix A. Also on this side of the board we have a thermistor which can be used to detect temperature and a light sensor. On the other side we have a battery holder where we can install a battery. 
-Your first app
-For your first exercise you are going to write a program in your Arduino IDE and then upload it to your Engduino board.
-If this is a lab class, your Arduino IDE should be open for you already. If not, just double click on the blue Arduino icon on your computer. You should see a window like that shown below:
+The LEDS are numbered 0 – 15 and their exact positions can be seen in ???. Also on this side of the board we have a thermistor which can be used to detect temperature and a light sensor. On the other side we have a battery holder where we can install a battery. 
+
+## Your first app
+For your first exercise you are going to write a program in your Arduino IDE and then upload it to your Engduino board. If this is a lab class, your Arduino IDE should be open for you already. If not, just double click on the blue Arduino icon on your computer. You should see a window like that shown below:
+
+![Arduino IDE](ide.png)
+
  
