@@ -36,7 +36,7 @@ Now we’re going to write a program. Type the following into the white box.
 
 #include  <EngduinoLEDs.h>
 
-void setup()
+```void setup()
 {
   EngduinoLEDs.begin();
 }
@@ -46,3 +46,4 @@ void loop()
 {
   EngduinoLEDs.setAll(GREEN);
 }
+```
