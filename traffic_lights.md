@@ -25,4 +25,4 @@ For your first exercise you are going to write a program in your Arduino IDE and
 
 ![Arduino IDE](https://www.gitbook.com/book/raeharbird/engduinochallenges/master/steinemandhughes.gif)
 
-![Arduino IDE](https://www.gitbook.com/book/raeharbird/engduinochallenges/images/ide.png)
+![Arduino IDE](../images/ide.png)
