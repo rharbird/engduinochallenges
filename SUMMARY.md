@@ -5,6 +5,7 @@
 * [Easy Challenges](easy_challenges.md)
    * Mix a Colour
    * Dim the lights
+   * Press the Button
 * Medium Challenges
    * Running Snake
 * Hard Challenges
