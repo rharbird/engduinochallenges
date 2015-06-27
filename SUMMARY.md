@@ -3,6 +3,7 @@
 * [Introduction](README.md)
    * Traffic Lights
 * [First Chapter](chapter1.md)
+   * Traffic Lights
 * [Easy Challenges](easy_challenges.md)
    * [More Traffic Lights](more_traffic_lights.md)
    * Dim the lights
