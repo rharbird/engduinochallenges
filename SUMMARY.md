@@ -3,8 +3,8 @@
 * [Introduction](README.md)
 * [First Chapter](chapter1.md)
 * [Easy Challenges](easy_challenges.md)
-   * Dim the lights
    * [More Traffic Lights](more_traffic_lights.md)
+   * Dim the lights
    * Mix a Colour
    * Press the Button
 * Medium Challenges
