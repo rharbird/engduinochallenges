@@ -3,10 +3,10 @@
 * [Introduction](README.md)
 * [First Chapter](chapter1.md)
 * [Easy Challenges](easy_challenges.md)
+   * More Traffic Lights
    * Mix a Colour
    * Dim the lights
    * Press the Button
-   * More Traffic Lights
 * Medium Challenges
    * Running Snake
    * On and Off
