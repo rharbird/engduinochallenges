@@ -4,6 +4,7 @@
 * [First Chapter](chapter1.md)
 * [Easy Challenges](easy_challenges.md)
    * Mix a Colour
+   * Dim the lights
 * Medium Challenges
 * Hard Challenges
 
