@@ -6,6 +6,7 @@
    * Mix a Colour
    * Dim the lights
    * Press the Button
+   * More Traffic Lights
 * Medium Challenges
    * Running Snake
    * On and Off
