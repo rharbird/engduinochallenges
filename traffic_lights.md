@@ -10,6 +10,7 @@ For those who know about these things, the Engduino is, at heart, an Arduino (ju
 
 | ![Front ](front.JPG) | ![Back](back.JPG)|
 |---|---|
+|         Front|           Back|
 
 Figure 1: The top and bottom of your Engduino
  
