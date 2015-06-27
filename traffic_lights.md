@@ -23,6 +23,6 @@ The LEDS are numbered 0 – 15 and their exact positions can be seen in ???. Als
 ## Your first app
 For your first exercise you are going to write a program in your Arduino IDE and then upload it to your Engduino board. If this is a lab class, your Arduino IDE should be open for you already. If not, just double click on the blue Arduino icon on your computer. You should see a window like that shown below:
 
-![Arduino IDE](../steinemandhughes.gif)
+![Arduino IDE](https://www.gitbook.com/book/raeharbird/engduinochallenges/master/steinemandhughes.gif)
 
  
