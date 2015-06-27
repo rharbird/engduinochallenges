@@ -6,5 +6,6 @@
    * Mix a Colour
    * Dim the lights
 * Medium Challenges
+   * Running Snake
 * Hard Challenges
 
