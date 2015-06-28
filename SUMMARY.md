@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Traffic Lights
 * [Get Started](get_started.md)
 * [Easy Challenges](easy_challenges.md)
    * [LEDs: One by One](one_by_one.md)
