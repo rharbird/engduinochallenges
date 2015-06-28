@@ -5,7 +5,7 @@
 * [First Chapter](chapter1.md)
    * [Get Started](get_started.md)
 * [Easy Challenges](easy_challenges.md)
-   * [One by One](one_by_one.md)
+   * [LEDS: One by One](one_by_one.md)
    * [Chase around](chase_around.md)
    * [More Traffic Lights](more_traffic_lights.md)
    * Dim the lights
