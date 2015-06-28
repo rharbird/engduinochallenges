@@ -9,6 +9,7 @@
    * Dim the lights
    * Mix a Colour
    * Press the Button
+   * One by One
 * [Medium Challenges](medium_challenges.md)
    * Running Snake
    * On and Off
