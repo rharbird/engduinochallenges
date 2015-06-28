@@ -94,9 +94,9 @@ is called ```loop()```. The loop function is run repeatedly – and it’s where
 This line tells the ```EngduinoLEDs``` object to execute the function ```setAll()```. We pass this function a value, namely what colour to make the LEDs (green in this case). It doesn’t return a value but simply does what you tell it, and switches the LEDs on.
 This line will actually be executed over and over as fast as the Engduino can go  – but since it always does the same thing, you won’t see any change.
 
-##Personalise your app
+## Personalise your app
 
-###Change the colour
+### Change the colour
 The function ```setAll()``` can be given a number of different values including: RED, GREEN, and BLUE. Go ahead and delete the word GREEN inside the brackets and replace it with the colour of your choice all in capital letters. For example if you prefer red, your app will look like this.
 
 ```
@@ -114,8 +114,8 @@ void loop()
 }
 ```
 When you’ve done that, click the upload button, as before, to upload your code. The LEDs will now be lit according to the colour you choose. Well done!
-##Blink
-###Delay
+### Blink
+### Delay
 The Engduino has a function built in called delay(). This function takes a number which tells the board to wait those number of milliseconds (remember a millisecond is one thousandth of a second) before executing the next instruction in your program. We are going to use this useful little function to make our Engduino blink.
 Just below the line: ```EngduinoLEDs.setAll(RED);```
 
