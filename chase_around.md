@@ -14,8 +14,8 @@ The LEDs worksheet.
 ### Method
 1. Read the LEDs worksheet.
 2. Open the Engduino template sketch.
-2. Save the sketch with a new name.
-3. Start by setting LED 0 to RED.
+2. Save the sketch with a new name: ```chaseAround```.
+3. Start by setting LED 0 to ```RED```.
 4. Set a delay for 1 second.
 4. Now set all the LEDs to ```OFF```.
 5. Continue until you have completed the challenge.
