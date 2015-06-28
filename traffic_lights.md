@@ -1,4 +1,4 @@
-# Traffic Lights
+# Get Started
 
 ## Introduction
 The Engduino is just a simple, small, computer that is capable of measuring quite a lot of interesting things about the real world and that has a bunch of LEDs that can be used to provide feedback to the user. This is a step-by-step guide to creating a very simple program and watching that run. 
