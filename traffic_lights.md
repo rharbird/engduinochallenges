@@ -71,10 +71,12 @@ This lets your program use the LEDs. If you wanted to use the button you would h
 
 The next part of the program is:
 
-```void setup()
+```
+void setup()
 {
   EngduinoLEDs.begin();
-}```
+}
+```
 
 This is a function. A function is similar to the ones you may have experienced in mathematics. It can take some value/s and returns another value after it executes. void is what the function returns (nothing in this case), then comes the function name (setup in this case) and then brackets that contain the values we pass to the function (none in this case, so the brackets are empty.) The curly brackets delimit our code, so in a file with many functions everything within the set of curly brackets just after our function name belongs to that function. Our function ```setup()``` has just one line
 ```EngduinoLEDs.begin();```
