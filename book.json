@@ -3,4 +3,8 @@
         "gitbookcode"
     ],
     "pluginsConfig": {}
+    
+    "structure": {
+        "readme": "get_started.md"
+    }
 }
