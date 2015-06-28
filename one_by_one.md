@@ -1,5 +1,7 @@
 
 # Task: One by one
+
+
 | Level| Points |
 | -- | -- |
 | Easy | 5 |
