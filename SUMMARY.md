@@ -6,7 +6,7 @@
    * [Get Started](get_started.md)
 * [Easy Challenges](easy_challenges.md)
    * [LEDs: One by One](one_by_one.md)
-   * [Chase around](chase_around.md)
+   * [LEDs: Chase around](chase_around.md)
    * [More Traffic Lights](more_traffic_lights.md)
    * Dim the lights
    * Mix a Colour
