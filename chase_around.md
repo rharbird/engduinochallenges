@@ -1,18 +1,20 @@
 
-# Task: Chase around
-| Level| Points |
-| -- | -- |
-| Easy | 5 |
+# Task: Chase Around
 
-### Mission
+| Level| Points | Uses |
+| ------ |------|------|
+| Easy | 5 | LEDs |
+
+## Mission
 
 Make an LED run around the board. 
 
-### You will need
-The LEDs worksheet.
+## You will need
+* An Engduino.
+* ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
 
-### Method
-1. Read the LEDs worksheet.
+## Method
+1. Read the ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
 2. Open the Engduino template sketch.
 2. Save the sketch with a new name: ```chaseAround```.
 3. Start by setting LED 0 to ```RED```.
@@ -23,5 +25,5 @@ The LEDs worksheet.
 
 Congratulations! go and collect your points for this challenge.
 
-
-# Author: Rae Harbird
+---
+{% include "./rae.md" %}

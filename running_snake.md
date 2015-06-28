@@ -1,20 +1,20 @@
 
-# Task: Chase around
-| Level| Points |
-| ------ | ---------------------------------------- |
-| Medium | 10 plus 2 bonus points for the challenge |
+# Task: Running Snake 
+| Level| Points | Uses |
+| ------ | -----------------------|------|
+| Medium | 10 plus 2 bonus points | LEDs |
 
 ## Mission
 
 Make a snake run around the board. 
 
-### You will need
+## You will need
 * An Engduino.
 * ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
 * ** CONTROL FLOW: FOR STATEMENTS ** sheet.
 
-### Method
-1. Read the LEDs sheet.
+## Method
+1. Read the ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
 2. Read the  ** CONTROL FLOW: FOR STATEMENTS ** sheet.
 3. Open the Engduino template sketch.
 4. Save the sketch with a new name: ```runningSnake```.
@@ -38,5 +38,5 @@ For 2 bonus points make each LED in your snake a different colour.
 
 Congratulations! go and collect your points for this challenge.
 
-
-# Author: Rae Harbird
+---
+{% include "./rae.md" %}

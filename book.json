@@ -1,10 +1,6 @@
 {
     "plugins": [
-        "gitbookcode"
+	"google_code_prettify"
     ],
     "pluginsConfig": {}
-    
-    "structure": {
-        "readme": "get_started.md"
-    }
 }

@@ -1,16 +1,15 @@
 # Summary
 
-* [Introduction](README.md)
-* [Get Started](get_started.md)
+* [Get Started](README.md)
 * [Easy Challenges](easy_challenges.md)
-   * [LEDs: One by One](one_by_one.md)
-   * [LEDs: Chase around](chase_around.md)
-   * [LEDs: Dim the lights
-   * Mix a Colour
-   * Press the Button
+   * [One by One](one_by_one.md)
+   * [Chase around](chase_around.md)
+   * [Dim the lights](dim_lights.md)
+   * [Make a Colour](mix_colour.md)
+   * [Press the Button](press_button.md)
 * [Medium Challenges](medium_challenges.md)
-   * [LEDs: Running Snake](running_snake.md)
-   * On and Off
-* Hard Challenges
-   * Count the Marbles
+   * [Running Snake](running_snake.md)
+   * [On and Off](on_off.md)
+* [Hard Challenges](hard_challenges.md)
+   * [Count the Marbles](count_marbles.md)
 
