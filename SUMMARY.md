@@ -1,10 +1,11 @@
 # Summary
 
+* [Introduction](README.md)
 * [Get Started](get_started.md)
 * [Easy Challenges](easy_challenges.md)
    * [LEDs: One by One](one_by_one.md)
    * [LEDs: Chase around](chase_around.md)
-   * Dim the lights
+   * LEDs: Dim the lights
    * Mix a Colour
    * Press the Button
 * [Medium Challenges](medium_challenges.md)
