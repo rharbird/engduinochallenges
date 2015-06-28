@@ -3,7 +3,7 @@
 * [Introduction](README.md)
    * Traffic Lights
 * [First Chapter](chapter1.md)
-   * [Get Started](traffic_lights.md)
+   * [Get Started](get_started.md)
 * [Easy Challenges](easy_challenges.md)
    * One by One
    * [More Traffic Lights](more_traffic_lights.md)
