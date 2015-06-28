@@ -114,18 +114,19 @@ void loop()
 }
 ```
 When you’ve done that, click the upload button, as before, to upload your code. The LEDs will now be lit according to the colour you choose. Well done!
-Blink
-Delay
+##Blink
+###Delay
 The Engduino has a function built in called delay(). This function takes a number which tells the board to wait those number of milliseconds (remember a millisecond is one thousandth of a second) before executing the next instruction in your program. We are going to use this useful little function to make our Engduino blink.
-Just below the line
-  EngduinoLEDs.setAll(RED);
+Just below the line: ```EngduinoLEDs.setAll(RED);```
 
-add the lines
+add the lines:
+```
   delay(2000);
   EngduinoLEDs.setAll(OFF);
   delay(1000);
-
+```
 Don’t forget your semi-colons! Your code should now look something like this.  (With the colour you chose instead of RED if you chose something else.)
+```
 #include  <EngduinoLEDs.h>
 
 void setup()
@@ -141,7 +142,7 @@ void loop()
   EngduinoLEDs.setAll(OFF);
   delay(1000);
 }
-
+```
 Go ahead and program the Engduino with your code. You should see your Engduino now rhythmically blinking the LEDs in the colour that you chose (remember that the loop code is executed repeatedly).
 
 
