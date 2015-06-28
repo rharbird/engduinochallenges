@@ -146,5 +146,47 @@ void loop()
 Go ahead and program the Engduino with your code. You should see your Engduino now rhythmically blinking the LEDs in the colour that you chose (remember that the loop code is executed repeatedly).
 
 
+PICCIE
+
+Go ahead and experiment with the timings. Change the numbers inside the brackets of the delay functions in both the lines
+```
+  delay(2000);
+
+  delay(1000);
+```
+
+to some number between 200 and 5000 or 0.2 seconds to 5 seconds - and see what happens. By playing around with combinations of numbers you can modify the sequence the blinking takes.
+If we were to add the lines:
+```
+  EngduinoLEDs.setAll(YELLOW);
+  delay(2000);
+  EngduinoLEDs.setAll(OFF);
+  delay(1000);
+```
+to the bottom so our code would look like this
+```
+void loop()
+{
+  EngduinoLEDs.setAll(RED);
+  delay(2000);
+  EngduinoLEDs.setAll(OFF);
+  delay(1000);
+  EngduinoLEDs.setAll(YELLOW);
+  delay(2000);
+  EngduinoLEDs.setAll(OFF);
+  delay(1000);
+}
+```
+
+What do you think would happen? Try it and find out… what happens if you change the timings now? What happens if you make them very small?
+
+##What next?
+There are many things we can do next. If you’re in a lab class, talk to one of the demonstrators, and they will give you another sheet that will tell you something about how you might make your code a bit more sophisticated, or how to work the button or one of the sensors. There’s no substitute for experience – try things, and if they don’t work, figure out why and fix them – there are many things you can do with the Engduino and the only rule is to be creative.
+
+If you’re at home or school working through this, you can always visit the Engduino website and navigate to the worksheets.
+
+If you’re a very advanced programmer, you can look at:
+http://www.engduino.org/engduino_libraries_detailed/
+And if you get stuck, by all means contact us on support@engduino.org.
 
 
