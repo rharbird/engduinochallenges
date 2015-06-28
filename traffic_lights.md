@@ -67,7 +67,7 @@ Now let’s take a quick look at some interesting parts of the basic app code an
 
 ```#include  <EngduinoLEDs.h>```
 
-This lets your program use the LEDs. If you wanted to use the button you would have change this to be ```#include <EngduinoButton.h>```, and if you wanted to use both, you would need to have both there. There is at least one #include for each of the sensors on the Engduino.
+This lets your program use the LEDs. If you wanted to use the button you would have change this to be ```#include <EngduinoButton.h>```, and if you wanted to use both, you would need to have both there. There is at least one ```#include``` for each of the sensors on the Engduino.
 
 The next part of the program is:
 
