@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
    * Traffic Lights
-* [First Chapter](chapter1.md)
+* [Get Started](chapter1.md)
 * [Easy Challenges](easy_challenges.md)
    * [LEDs: One by One](one_by_one.md)
    * [LEDs: Chase around](chase_around.md)
