@@ -5,7 +5,7 @@
 * [First Chapter](chapter1.md)
    * [Get Started](get_started.md)
 * [Easy Challenges](easy_challenges.md)
-   * One by One
+   * [One by One](one_by_one.md)
    * [More Traffic Lights](more_traffic_lights.md)
    * Dim the lights
    * Mix a Colour
