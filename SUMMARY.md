@@ -12,7 +12,7 @@
    * Mix a Colour
    * Press the Button
 * [Medium Challenges](medium_challenges.md)
-   * Running Snake
+   * [Running Snake](running_snake.md)
    * On and Off
 * Hard Challenges
    * Count the Marbles
