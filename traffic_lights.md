@@ -78,9 +78,7 @@ void setup()
 }
 ```
 
-This is a function. A function is similar to the ones you may have experienced in mathematics. It can take some value/s and returns another value after it executes. void is what the function returns (nothing in this case), then comes the function name (setup in this case) and then brackets that contain the values we pass to the function (none in this case, so the brackets are empty.) The curly brackets delimit our code, so in a file with many functions everything within the set of curly brackets just after our function name belongs to that function. Our function ```setup()``` has just one line
-
-```EngduinoLEDs.begin();```
+This is a function. A function is similar to the ones you may have experienced in mathematics. It can take some value/s and returns another value after it executes. void is what the function returns (nothing in this case), then comes the function name (setup in this case) and then brackets that contain the values we pass to the function (none in this case, so the brackets are empty.) The curly brackets delimit our code, so in a file with many functions everything within the set of curly brackets just after our function name belongs to that function. Our function ```setup()``` has just one line ```EngduinoLEDs.begin();```
 
 This line tells the EngduinoLEDs object to run the function begin(), which gets the LEDs started so we can play with them. The semi-colon at the end of the line is common to many programming languages and signals to the computer that is the end of one instruction. Don’t forget these when you start writing your own code . The setup function runs exactly once, when the program starts.
 The next function:
