@@ -83,15 +83,16 @@ This is a function. A function is similar to the ones you may have experienced i
 
 This line tells the EngduinoLEDs object to run the function begin(), which gets the LEDs started so we can play with them. The semi-colon at the end of the line is common to many programming languages and signals to the computer that is the end of one instruction. Don’t forget these when you start writing your own code . The setup function runs exactly once, when the program starts.
 The next function:
+```
 void loop()
 {
   EngduinoLEDs.setAll(GREEN);
 }
+```
 
-is called loop(). The loop function is run repeatedly – and it’s where we put most of the instructions we want our Engduino to perform. In this case, it’s just one thing:
-  EngduinoLEDs.setAll(GREEN);
+is called ```loop()```. The loop function is run repeatedly – and it’s where we put most of the instructions we want our Engduino to perform. In this case, it’s just one thing: ```EngduinoLEDs.setAll(GREEN);```
 
-This line tells the EngduinoLEDs object to execute the function setAll(). We pass this function a value, namely what colour to make the LEDs (green in this case). It doesn’t return a value but simply does what you tell it, and switches the LEDs on.
+This line tells the ```EngduinoLEDs``` object to execute the function ```setAll()```. We pass this function a value, namely what colour to make the LEDs (green in this case). It doesn’t return a value but simply does what you tell it, and switches the LEDs on.
 This line will actually be executed over and over as fast as the Engduino can go  – but since it always does the same thing, you won’t see any change.
 Personalise your a
 
