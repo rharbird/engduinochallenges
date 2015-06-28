@@ -9,10 +9,10 @@
    * Dim the lights
    * Mix a Colour
    * Press the Button
-* Medium Challenges
+* [Medium Challenges](medium_challenges.md)
    * Running Snake
    * On and Off
 * Hard Challenges
    * Count the Marbles
-
 * [Engduino](engduino.md)
+
