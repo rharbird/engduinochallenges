@@ -1,8 +1,10 @@
+{% include "./header.md" %}
+
 
 # Task: One by one
 
-| Level| Points | Uses |
-| ------ |------|------|
+| Level| Maximum Points | Uses |
+| ------ |:------:|------|
 | Easy | 5 | LEDs |
 
 ## Mission
@@ -11,11 +13,11 @@ Make the LEDs light up one at a time.
 
 ## You will need
 * An Engduino.
-* ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
+* The ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
 
 ## Method
 1. Read the ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
-2. Open the Engduino template sketch.
+2. Open a new sketch.
 3. Save the sketch with a new name: ```oneByOne```.
 4. Start by setting LED 0 to ```RED``` and set a delay for 1 second.
 5. Now set LED 1 to ```RED```.

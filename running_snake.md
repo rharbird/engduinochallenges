@@ -1,7 +1,8 @@
+{% include "./header.md" %}
 
 # Task: Running Snake 
-| Level| Points | Uses |
-| ------ | -----------------------|------|
+| Level| Maximum Points | Uses |
+| ------ |:------:|------|
 | Medium | 10 plus 2 bonus points | LEDs |
 
 ## Mission
@@ -10,13 +11,13 @@ Make a snake run around the board.
 
 ## You will need
 * An Engduino.
-* ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
-* ** CONTROL FLOW: FOR STATEMENTS ** sheet.
+* The ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
+* The ** CONTROL FLOW: FOR STATEMENTS ** sheet.
 
 ## Method
 1. Read the ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
 2. Read the  ** CONTROL FLOW: FOR STATEMENTS ** sheet.
-3. Open the Engduino template sketch.
+3. Open a new sketch.
 4. Save the sketch with a new name: ```runningSnake```.
 5. Use a ```for``` loop to set the LEDs to ```RED``` one-by-one.
 6. Your snake is only 1 LED long. Now make your snake 3 LEDs long. *Hint:* You might need to use some extra curly brackets like this:

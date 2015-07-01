@@ -1,8 +1,10 @@
+{% include "./header.md" %}
+
 
 # Task: Make a Colour 
 
-| Level| Points | Uses |
-| ------ |------|------|
+| Level| Maximum Points | Uses |
+| ------ |:------:|------|
 | Easy | 5 | LEDs |
 
 ## Mission
@@ -11,7 +13,7 @@ Make the LEDs flash bright and then dim.
 
 ## You will need
 * An Engduino.
-* ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
+* The ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
 
 ## Method
 1. Read the ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
