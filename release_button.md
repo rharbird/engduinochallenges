@@ -1,7 +1,7 @@
 {% include "./header.md" %}
 
 
-# Task: Release the Button 
+# Task: Release the button 
 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|

@@ -1,7 +1,7 @@
 {% include "./header.md" %}
 
 
-# Task: Press the Button 
+# Task: Press the button 
 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|

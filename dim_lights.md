@@ -1,7 +1,7 @@
 {% include "./header.md" %}
 
 
-# Task: Dim the Lights 
+# Task: Dim the lights 
 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|

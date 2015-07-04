@@ -1,7 +1,7 @@
 {% include "./header.md" %}
 
 
-# Task: Make a Colour 
+# Task: Make a colour 
 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|
