@@ -5,7 +5,7 @@
 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|
-| Easy | 5 | LEDs |
+| Easy | 1 | LEDs |
 
 ## Mission
 
@@ -25,7 +25,8 @@ Make the LEDs light up one at a time.
 
 
 
-Congratulations! go and collect your points for this challenge.
+Congratulations! Collect your points for this challenge.
 
----
+<!---
 {% include "./rae.md" %}
+-->

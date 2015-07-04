@@ -7,6 +7,7 @@
    * [Dim the lights](dim_lights.md)
    * [Make a Colour](mix_colour.md)
    * [Press the Button](press_button.md)
+   * [Release the Button](release_button.md)
 * [Medium Challenges](medium_challenges.md)
    * [Running Snake](running_snake.md)
    * [On and Off](on_off.md)

@@ -28,7 +28,7 @@ to keep the same look and feel -->
 
 
 
-Congratulations! go and collect your points for this challenge.
+Congratulations! Collect your points for this challenge.
 
 ---
 <!---

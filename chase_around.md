@@ -4,7 +4,7 @@
 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|
-| Easy | 5 | LEDs |
+| Easy | 1 | LEDs |
 
 ## Mission
 
@@ -24,7 +24,8 @@ Make an LED run around the board.
 7. Continue until you have completed the challenge.
 
 
-Congratulations! go and collect your points for this challenge.
+Congratulations! Collect your points for this challenge.
 
----
+<!---
 {% include "./rae.md" %}
+-->
