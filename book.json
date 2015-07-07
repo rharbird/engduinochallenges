@@ -1,6 +1,22 @@
 {
-    "plugins": [
-	"google_code_prettify"
-    ],
-    "pluginsConfig": {}
+    "plugins": [ "google_code_prettify", "autocover" ],
+    "pluginsConfig": {
+	"autocover": {
+		    "title": "Engduino Challenges",
+		    "author": "Rae Harbird and Stephen Hailes",
+		    "font": {
+		        "size": "large",
+		        "family": "Impact",
+		        "color": "#020202"
+		    },
+		    "size": {
+		        "w": 1800,
+		        "h": 2360
+	    	    },
+    		    "background": {
+        		"color": "#FFF"
+    		    }
+
+    	}
+	}
 }

@@ -1,5 +1,6 @@
-## School:
-## Points Awarded:
-## Signature:
+### School:
+### Students' names:
+### Points awarded:  
+### Judge's Signature: 
 <br>
 <br>
