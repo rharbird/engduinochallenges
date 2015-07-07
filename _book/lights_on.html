@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>What&#39;s the light reading | Engduino Challenges</title>
+        <title>Lights on | Engduino Challenges</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.1.0">
@@ -29,10 +29,10 @@
         
     
     
-    <link rel="next" href="./accelerometer.html" />
+    <link rel="next" href="./hard_challenges.html" />
     
     
-    <link rel="prev" href="./temperature.html" />
+    <link rel="prev" href="./fade_out.html" />
     
 
         
@@ -40,7 +40,7 @@
     <body>
         
         
-    <div class="book" data-level="1.13" data-basepath="." data-revision="Wed Jul 08 2015 00:09:22 GMT+0100 (BST)">
+    <div class="book" data-level="2.8" data-basepath="." data-revision="Wed Jul 08 2015 00:09:22 GMT+0100 (BST)">
     
 
 <div class="book-summary">
@@ -266,7 +266,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.13" data-path="lightsensor.html">
+        <li class="chapter " data-level="1.13" data-path="lightsensor.html">
             
                 
                     <a href="./lightsensor.html">
@@ -429,7 +429,7 @@
             
         </li>
     
-        <li class="chapter " data-level="2.8" data-path="lights_on.html">
+        <li class="chapter active" data-level="2.8" data-path="lights_on.html">
             
                 
                     <a href="./lights_on.html">
@@ -596,7 +596,7 @@
 <h3 id="judge-s-signature">Judge&apos;s Signature:</h3>
 <p><br>
 <br></p>
-<h1 id="task-1-13-what-s-the-light-reading">Task 1.13: What&apos;s the light reading?</h1>
+<h1 id="task-lights-on">Task: Lights on</h1>
 <table>
 <thead>
 <tr>
@@ -607,28 +607,50 @@
 </thead>
 <tbody>
 <tr>
-<td>Easy</td>
-<td style="text-align:center">1</td>
-<td>Light Sensor</td>
+<td>Medium</td>
+<td style="text-align:center">2</td>
+<td>LEDs, Light sensor</td>
 </tr>
 </tbody>
 </table>
 <h2 id="mission">Mission</h2>
-<p>Read the value from the light sensor and print it out on serial monitor. </p>
+<p>Make the LEDs light up  when it is dark.  Sometimes you want to do something when a sensor value is above or below a <em> threshold </em>. In this challenge you will turn the LEDs on when the light level goes below a certain value. </p>
+<p><img src="threshold.jpg" height="275px" title="Threshold"></p>
+<p>The diagram shows that if the light level is below 30 it is dark.</p>
+<p>First of all you need to measure the light levels in the room. Use the information in the <strong> LIGHT SENSOR </strong> sheet to work out how to do this.</p>
 <h2 id="you-will-need">You will need</h2>
 <ul>
 <li>An Engduino.</li>
+<li>The <strong> ENGDUINO LIBRARIES: THE LEDS </strong> sheet.</li>
 <li>The <strong> ENGDUINO LIBRARIES: THE LIGHT SENSOR </strong> sheet.</li>
+<li>The <strong> ENGDUINO LIBRARIES: IF STATEMENTS </strong> sheet.</li>
 </ul>
 <h2 id="method">Method</h2>
 <ol>
-<li>Read the <strong> ENGDUINO LIBRARIES: THE LIGHT SENSOR </strong> sheet.</li>
+<li>Read the <strong> ENGDUINO LIBRARIES: THE LEDS </strong> sheet,  the <strong> LIGHT SENSOR </strong> sheet and the sheet about <strong> IF STATEMENTS </strong>.</li>
 <li>Open a new sketch.</li>
-<li>Save the sketch with a new name: <code>readLight</code>.</li>
-<li>Write some code to read the light reading, print out the value and delay 1s.</li>
-<li>What happens when you put your finger over the light sensor?</li>
+<li>Save the sketch with a new name: <code>lightsOn</code>.</li>
+<li>Write down the value of the light sensor reading, use the table below.</li>
+<li>Make it dark by putting your finger over the light sensor, write down the value of the light sensor reading now.</li>
 </ol>
-<p>Congratulations! Collect your points for this challenge.</p>
+<pre><code>| Normal | Finger over light sensor| Threshold |
+| ------ |------|------|
+| | | | 
+</code></pre><ol>
+<li><p>Add some more code so that the LEDs come on when the light sensor value is below a certain threshold. </p>
+<p> Choose a light sensor value that is close to  the value you noted when you put your finger over the sensor and write it in the table above. </p>
+</li>
+<li><pre><code> int b =  15; // This is the brightness level.
+</code></pre></li>
+<li>In the main loop, set the LEDs to any colour you like with the brightness level set to <code>b</code>.</li>
+<li>Subtract 1 from b like this:
+ <code>b = b - 1;</code></li>
+<li>Add a delay of half a second. </li>
+<li>For an extra 2 points, reset <code>b</code> to 15 every time it reaches <code>0</code>. Hint: use an <code>if</code> statement. </li>
+<li>Remember to ask one of the judges if you need help.</li>
+</ol>
+<p>Continue until you have completed the challenge.</p>
+<p>Congratulations! go and collect your points for this challenge.</p>
 <!---
 Written by Rae Harbird
 <img src="rae.jpeg" alt="Rae Harbird" style="float:left;width:75px;height:75px;">
@@ -646,10 +668,10 @@ Rae is a Teaching Fellow at UCL. She likes making things with arduino kit, cycli
         </div>
 
         
-        <a href="./temperature.html" class="navigation navigation-prev " aria-label="Previous page: What&#39;s the temperature"><i class="fa fa-angle-left"></i></a>
+        <a href="./fade_out.html" class="navigation navigation-prev " aria-label="Previous page: Fade out"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="./accelerometer.html" class="navigation navigation-next " aria-label="Next page: Read the accelerometer"><i class="fa fa-angle-right"></i></a>
+        <a href="./hard_challenges.html" class="navigation navigation-next " aria-label="Next page: Hard challenges"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

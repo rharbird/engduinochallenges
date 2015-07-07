@@ -1,7 +1,7 @@
 {% include "./header.md" %}
 
 
-# Task: One by one
+# Task 1.1: One by one
 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|

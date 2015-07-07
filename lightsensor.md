@@ -1,11 +1,11 @@
 {% include "./header.md" %}
 
 
-# Task: What's the light reading? 
+# Task 1.13: What's the light reading? 
 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|
-| Easy | 2 | Light Sensor |
+| Easy | 1 | Light Sensor |
 
 ## Mission
 

@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>What&#39;s the light reading | Engduino Challenges</title>
+        <title>Read the accelerometer | Engduino Challenges</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.1.0">
@@ -29,10 +29,10 @@
         
     
     
-    <link rel="next" href="./accelerometer.html" />
+    <link rel="next" href="./medium_challenges.html" />
     
     
-    <link rel="prev" href="./temperature.html" />
+    <link rel="prev" href="./lightsensor.html" />
     
 
         
@@ -40,7 +40,7 @@
     <body>
         
         
-    <div class="book" data-level="1.13" data-basepath="." data-revision="Wed Jul 08 2015 00:09:22 GMT+0100 (BST)">
+    <div class="book" data-level="1.14" data-basepath="." data-revision="Wed Jul 08 2015 00:09:22 GMT+0100 (BST)">
     
 
 <div class="book-summary">
@@ -266,7 +266,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.13" data-path="lightsensor.html">
+        <li class="chapter " data-level="1.13" data-path="lightsensor.html">
             
                 
                     <a href="./lightsensor.html">
@@ -281,7 +281,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.14" data-path="accelerometer.html">
+        <li class="chapter active" data-level="1.14" data-path="accelerometer.html">
             
                 
                     <a href="./accelerometer.html">
@@ -596,7 +596,7 @@
 <h3 id="judge-s-signature">Judge&apos;s Signature:</h3>
 <p><br>
 <br></p>
-<h1 id="task-1-13-what-s-the-light-reading">Task 1.13: What&apos;s the light reading?</h1>
+<h1 id="task-1-14-read-the-accelerometer">Task 1.14: Read the accelerometer</h1>
 <table>
 <thead>
 <tr>
@@ -609,24 +609,32 @@
 <tr>
 <td>Easy</td>
 <td style="text-align:center">1</td>
-<td>Light Sensor</td>
+<td>Accelerometer</td>
 </tr>
 </tbody>
 </table>
 <h2 id="mission">Mission</h2>
-<p>Read the value from the light sensor and print it out on serial monitor. </p>
+<p>Read the values from the accelerometer and print out on serial monitor. </p>
 <h2 id="you-will-need">You will need</h2>
 <ul>
 <li>An Engduino.</li>
-<li>The <strong> ENGDUINO LIBRARIES: THE LIGHT SENSOR </strong> sheet.</li>
+<li>The <strong> ENGDUINO LIBRARIES: THE ACCELEROMETER </strong> sheet.</li>
 </ul>
 <h2 id="method">Method</h2>
+<p>The Engduino can measure acceleration using a device called an accelerometer. </p>
+<p>The acceleration that the Engduino measures could be thought of as being composed of two parts:</p>
+<ul>
+<li>Dynamic acceleration &#x2013; which you get when a car accelerates, for example. Or when a human moves &#x2013; any change in direction is an acceleration, so moving up and down when walking involves acceleration, and we can measure that (this is how a pedometer works).</li>
+<li>Acceleration (or force) &#x2013; due to gravity. Even when the Engduino is on a desk, not apparently moving, it will register the force due to gravity. Since the accelerometer can tell you in which direction the force is acting, we can use this to turn the Engduino into a spirit level.</li>
+</ul>
+<p>Any action that involves a change in direction &#x2013; any sufficiently large vibration &#x2013; can be measured with an accelerometer. Likewise, we can know whether the Engduino is face up or face down, or being turned end over end. The Engduino measures acceleration in three directions : x, y, z, like this:</p>
+<p><img src="engduino_with_axes.jpg" alt="Engduino showing axes"></p>
 <ol>
-<li>Read the <strong> ENGDUINO LIBRARIES: THE LIGHT SENSOR </strong> sheet.</li>
+<li>Read the <strong> ENGDUINO LIBRARIES: THE ACCELEROMETER </strong> sheet.</li>
 <li>Open a new sketch.</li>
-<li>Save the sketch with a new name: <code>readLight</code>.</li>
-<li>Write some code to read the light reading, print out the value and delay 1s.</li>
-<li>What happens when you put your finger over the light sensor?</li>
+<li>Save the sketch with a new name: <code>accelerometer</code>.</li>
+<li>Write some code to read the accelerometer and print out the values for the forces in the x, y, and z axes.</li>
+<li>For an extra point, describe to the judge how to change the &apos;z&apos; values to be negative.  What is happening here?</li>
 </ol>
 <p>Congratulations! Collect your points for this challenge.</p>
 <!---
@@ -646,10 +654,10 @@ Rae is a Teaching Fellow at UCL. She likes making things with arduino kit, cycli
         </div>
 
         
-        <a href="./temperature.html" class="navigation navigation-prev " aria-label="Previous page: What&#39;s the temperature"><i class="fa fa-angle-left"></i></a>
+        <a href="./lightsensor.html" class="navigation navigation-prev " aria-label="Previous page: What&#39;s the light reading"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="./accelerometer.html" class="navigation navigation-next " aria-label="Next page: Read the accelerometer"><i class="fa fa-angle-right"></i></a>
+        <a href="./medium_challenges.html" class="navigation navigation-next " aria-label="Next page: Medium challenges"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

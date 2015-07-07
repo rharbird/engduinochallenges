@@ -1,7 +1,7 @@
 {% include "./header.md" %}
 
 
-# Task: What's the temperature? 
+# Task 1.12: What's the temperature? 
 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|
@@ -9,7 +9,7 @@
 
 ## Mission
 
-Read the temperature and print it out the value on serial monitor. 
+Read the temperature and print out the value on serial monitor. 
 
 ## You will need
 * An Engduino.

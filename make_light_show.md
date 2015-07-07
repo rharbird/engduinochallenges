@@ -1,7 +1,7 @@
 {% include "./header.md" %}
 
 
-# Task 1.4: Make a colour 
+# Task 1.7: Make a light show 
 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|
@@ -9,7 +9,7 @@
 
 ## Mission
 
-Make two colours using R,G,B colours. Make the LEDs flash one colour and then the other. 
+Make a light show with the LEDs.
 
 ## You will need
 * An Engduino.
@@ -18,9 +18,8 @@ Make two colours using R,G,B colours. Make the LEDs flash one colour and then th
 ## Method
 1. Read the ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
 2. Open the Engduino template sketch.
-3. Save the sketch with a new name: ```makeColour```.
-4. Create two colours using values for Red, Green and Blue.
-5. Make the LEDs flash between one colour and the other.
+3. Save the sketch with a new name: ```makeShow```.
+4. Use the LEDs to design a light show. Use your imagination and create some special effects. 
 
 
 

@@ -1,6 +1,6 @@
 {% include "./header.md" %}
 
-# Task: Chase around
+# Task 1.2: Chase around
 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|

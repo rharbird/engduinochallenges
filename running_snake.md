@@ -3,7 +3,7 @@
 # Task: Running Snake 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|
-| Medium | 10 plus 2 bonus points | LEDs |
+| Medium | 2 plus 1 bonus point | LEDs |
 
 ## Mission
 
@@ -23,7 +23,7 @@ Make a snake run around the board.
 6. Your snake is only 1 LED long. Now make your snake 3 LEDs long. *Hint:* You might need to use some extra curly brackets like this:
 
 ```
-for (i = 0; i < 8; i++)
+for (i = 0; i < 16; i++)
 {
        ...Type your code in here.
 }
@@ -39,5 +39,6 @@ For 2 bonus points make each LED in your snake a different colour.
 
 Congratulations! go and collect your points for this challenge.
 
----
+<!---
 {% include "./rae.md" %}
+-->

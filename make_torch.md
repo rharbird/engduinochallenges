@@ -1,7 +1,7 @@
 {% include "./header.md" %}
 
 
-# Task 1.9: Press the button 
+# Task 1.10: Make a torch 
 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|
@@ -9,7 +9,7 @@
 
 ## Mission
 
-Make the LEDs light up when the button is pressed. 
+Make the LEDs light up when the button is pressed and switch off the next time the button is pressed. 
 
 ## You will need
 * An Engduino.
@@ -19,8 +19,8 @@ Make the LEDs light up when the button is pressed.
 ## Method
 1. Read the ** ENGDUINO LIBRARIES: THE LEDS ** and the ** ENGDUINO LIBRARIES: THE BUTTON ** sheet.
 2. Open a new sketch.
-3. Save the sketch with a new name: ```pressTheButton```.
-4. Make the LEDs come on when the button is pressed.
+3. Save the sketch with a new name: ```torch```.
+4. Make the LEDs come on when the button is pressed and go off the next time the button is pressed.
 
 
 
