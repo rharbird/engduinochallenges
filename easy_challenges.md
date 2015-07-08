@@ -17,4 +17,3 @@ Easy challenges are worth 1 point each.
    * [What's the temperature](temperature.md)
    * [What's the light reading](lightsensor.md)
    * [Read the accelerometer](accelerometer.md)
-   * [Read the magnetometer](magnetometer.md)

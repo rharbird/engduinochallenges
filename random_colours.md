@@ -1,7 +1,7 @@
 {% include "./header.md" %}
 
-# Task: Random Colours 
-| Level| Maximum Points | Uses |
+# Task 1.5: Random Colours 
+| Level| Points | Uses |
 | ------ |:------:|------|
 | Medium | 2 | LEDs |
 
@@ -35,7 +35,7 @@ Continue until you have completed the challenge.
 
 
 
-Congratulations! go and collect your points for this challenge.
+Congratulations! Collect your points for this challenge.
 
 <!---
 {% include "./rae.md" %}

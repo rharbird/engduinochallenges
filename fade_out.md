@@ -1,9 +1,9 @@
 {% include "./header.md" %}
 
-# Task: Fade out 
+# Task 3.1: Fade out 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|
-| Medium | 2 plus 2 bonus points | LEDs |
+| Medium | 3 | LEDs |
 
 ## Mission
 Make the LEDs fade in and out.
@@ -13,7 +13,6 @@ Make the LEDs fade in and out.
 * The ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
 
 ## Method
-Set all the LEDs to any colour then delay for one second. Repeat but reduce the b.
 1. Read the ** ENGDUINO LIBRARIES: THE LEDS ** sheet.
 3. Open a new sketch.
 4. Save the sketch with a new name: ```fade```.
@@ -34,7 +33,7 @@ Continue until you have completed the challenge.
 
 
 
-Congratulations! go and collect your points for this challenge.
+Congratulations! Collect your points for this challenge.
 
 <!---
 {% include "./rae.md" %}

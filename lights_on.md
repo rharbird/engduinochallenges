@@ -1,10 +1,10 @@
 {% include "./header.md" %}
 
-# Task: Lights on 
+# Task 3.2: Lights on 
 
-| Level| Maximum Points | Uses |
+| Level| Points | Uses |
 | ------ |:------:|------|
-| Medium | 2 | LEDs, Light sensor |
+| Medium | 3 | LEDs, Light sensor |
 
 ## Mission
 Make the LEDs light up  when it is dark.  Sometimes you want to do something when a sensor value is above or below a * threshold *. In this challenge you will turn the LEDs on when the light level goes below a certain value. 
@@ -25,6 +25,8 @@ First of all you need to measure the light levels in the room. Use the informati
 1. Read the ** ENGDUINO LIBRARIES: THE LEDS ** sheet,  the ** LIGHT SENSOR ** sheet and the sheet about ** IF STATEMENTS **.
 3. Open a new sketch.
 4. Save the sketch with a new name: ```lightsOn```.
+5. Write some code to read the value from the light sensor and print it to the serial monitor.
+6. Open the serial monitor. Can you see the light sensor values being printed? 
 6. Write down the value of the light sensor reading, use the table below.
 7. Make it dark by putting your finger over the light sensor, write down the value of the light sensor reading now.
 
@@ -33,13 +35,10 @@ First of all you need to measure the light levels in the room. Use the informati
 	| ------ |------|------|
 	| | | | 
 
-7. Add some more code so that the LEDs come on when the light sensor value is below a certain threshold. 
-
-	Choose a light sensor value that is close to  the value you noted when you put your finger over the sensor and write it in the table above. 
-
-8. 
+7. Add some more code so that the LEDs come on when the light sensor value is below a certain threshold. You should use an ```if``` statement, it will
+look similar to this: 
 	```
-	int b =  15; // This is the brightness level.
+	if (v <  
 
 	```
 6. In the main loop, set the LEDs to any colour you like with the brightness level set to ```b```.

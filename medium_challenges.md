@@ -10,4 +10,3 @@ Medium challenges are worth 2 points each.
    * [Random colours](random_colours.md)
    * [Make a dice](dice.md)
    * [Fade out](fade_out.md)
-   * [Lights on](lights_on.md)

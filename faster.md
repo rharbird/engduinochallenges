@@ -1,9 +1,9 @@
 {% include "./header.md" %}
 
-# Task: Faster and faster 
-| Level| Maximum Points | Uses |
+# Task 2.2: Faster and faster 
+| Level| Points | Uses |
 | ------ |:------:|------|
-| Medium | 2 plus 2 bonus points | LEDs |
+| Medium | 2 | LEDs |
 
 ## Mission
 
@@ -52,7 +52,7 @@ Continue until you have completed the challenge.
 
 
 
-Congratulations! go and collect your points for this challenge.
+Congratulations! Collect your points for this challenge.
 
 <!---
 {% include "./rae.md" %}

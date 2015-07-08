@@ -1,7 +1,7 @@
 {% include "./header.md" %}
 
-# Task: Wait a while 
-| Level| Maximum Points | Uses |
+# Task 2.3: Wait a while 
+| Level|  Points | Uses |
 | ------ |:------:|------|
 | Medium | 2 | LEDs, Button |
 
@@ -21,13 +21,13 @@ Make the LEDs come on when you press the button. The longer you press the button
 3. Open a new sketch.
 4. Save the sketch with a new name: ```wait```.
 5. Use a ```while``` loop to set the LEDs to ```RED``` one-by-one as you are holding the button.
-6. If you release the button then all the LEDs must switch off. 
+6. If you release the button then all the LEDs must switch ```OFF```. 
 
 Continue until you have completed the challenge.
 
 
 
-Congratulations! go and collect your points for this challenge.
+Congratulations! Collect your points for this challenge.
 
 <!---
 {% include "./rae.md" %}

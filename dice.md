@@ -1,7 +1,7 @@
 {% include "./header.md" %}
 
-# Task: Make a dice 
-| Level| Maximum Points | Uses |
+# Task 2.6: Make a dice 
+| Level| Points | Uses |
 | ------ |:------:|------|
 | Medium | 2 | LEDs, Button |
 
@@ -36,7 +36,7 @@ Continue until you have completed the challenge.
 
 
 
-Congratulations! go and collect your points for this challenge.
+Congratulations! Collect your points for this challenge.
 
 <!---
 {% include "./rae.md" %}

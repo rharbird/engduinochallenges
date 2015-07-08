@@ -1,9 +1,9 @@
 {% include "./header.md" %}
 
-# Task: Running Snake 
-| Level| Maximum Points | Uses |
+# Task 2.1: Running Snake 
+| Level| Points | Uses |
 | ------ |:------:|------|
-| Medium | 2 plus 1 bonus point | LEDs |
+| Medium | 2 | LEDs |
 
 ## Mission
 
@@ -31,13 +31,8 @@ for (i = 0; i < 16; i++)
 
 Continue until you have completed the challenge.
 
-### Extra Challenge
 
-For 2 bonus points make each LED in your snake a different colour.
-
-
-
-Congratulations! go and collect your points for this challenge.
+Congratulations! Collect your points for this challenge.
 
 <!---
 {% include "./rae.md" %}
