@@ -43,7 +43,7 @@ Make a single LED go around the board faster and faster.
 	myDelay = myDelay - 50;
 	```
 
-9. For 2 bonus points, reset myDelay when it reaches zero.
+9. Reset myDelay to the original value	when it reaches zero.
 
 
 Continue until you have completed the challenge.

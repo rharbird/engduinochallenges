@@ -11,7 +11,7 @@ Make the LEDs light up  when you tilt the Engduino from side-to-side.
 
 Sometimes you want to do something when a sensor value is above or below a * threshold *. In this challenge you will turn some of the LEDs on when you tilt the Engduino from side to side. First you need to measure the acceleration values when the board is flat and then you need to see what happens when you tilt the board. Use the information in the ** ACCELEROMETER ** sheet to work out how to do this.
 
-<img src="tilt_left.jpg" height="175px" title="Tilt left threshold">
+<img src="left_tilt.jpg" height="175px" title="Tilt left threshold">
 
 ## You will need
 * An Engduino.

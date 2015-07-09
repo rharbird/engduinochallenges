@@ -1,6 +1,4 @@
 # Summary
-
-* [Get started](README.md)
 * [Easy challenges](easy_challenges.md)
    * [One by one](one_by_one.md)
    * [Chase around](chase_around.md)
