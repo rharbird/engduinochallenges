@@ -24,7 +24,7 @@ Figure 2:  16 Red, Green, Blue LEDs on one side of the board
 # Schematic 
 The LEDS are numbered 0 – 15 and their exact positions can be seen below. You will need this information when you program the LEDs. 
 
-<img src="bigE.jpg" alt="Engduino schematic" style="height:1000px;">
+<img src="bigE.jpg" alt="Engduino schematic" style="height:900px;">
 <br>
 
 # Task Sheet
