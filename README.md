@@ -10,7 +10,6 @@ For those who know about these things, the Engduino is, at heart, an Arduino (ju
 | Top | Bottom |
 
 Figure 1: The top and bottom of your Engduino
- 
 
 On the one side of your Engduino you have 16 LED lights that have adjustable brightness and can be set to various mixtures of the three primary colours (of light): Red, Green and Blue.
  
@@ -20,11 +19,13 @@ On the one side of your Engduino you have 16 LED lights that have adjustable bri
 
 Figure 2:  16 Red, Green, Blue LEDs on one side of the board
 
+<br>
+
+# Schematic 
 The LEDS are numbered 0 – 15 and their exact positions can be seen below. You will need this information when you program the LEDs. 
 
-<img src="bigE.jpg" alt="Engduino" style="height:800px;">
+<img src="bigE.jpg" alt="Engduino schematic" style="height:1000px;">
 <br>
-Figure 3: Schematic showing the top of the board 
 
 # Task Sheet
 
@@ -55,5 +56,5 @@ Figure 3: Schematic showing the top of the board
 | 3.1       | Fade out                   | LEDs                 | 3       |   				        	|                   |    
 | 3.2       | Lights on                  | LEDs, Light Sensor   | 3       |   				        	|                   |    
 | 3.3       | Too hot                    | LEDs, Thermistor     | 3       |   				        	|                   |    
-| 3.4       | Tilt                       | LEDs, Accelerometer  | 3       |   				        	|                   |    
-| 3.5       | Shake                      | LEDs, Accelerometer  | 3       |   				        	|                   |    
+| 3.4       | Tilt                       | LEDs, Accelerometer  | 3       |   				        	|                   |   
+| 3.5       | Shake                      | LEDs, Accelerometer  | 3       |   				        	|                   ||
