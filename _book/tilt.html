@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Count the Marbles | Engduino Challenges</title>
+        <title>Tilt | Engduino Challenges</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.1.0">
@@ -29,8 +29,10 @@
         
     
     
+    <link rel="next" href="./shake.html" />
     
-    <link rel="prev" href="./hard_challenges.html" />
+    
+    <link rel="prev" href="./hot.html" />
     
 
         
@@ -38,7 +40,7 @@
     <body>
         
         
-    <div class="book" data-level="3.1" data-basepath="." data-revision="Wed Jul 08 2015 00:46:28 GMT+0100 (BST)">
+    <div class="book" data-level="3.4" data-basepath="." data-revision="Thu Jul 09 2015 08:42:53 GMT+0100 (BST)">
     
 
 <div class="book-summary">
@@ -294,13 +296,6 @@
             
         </li>
     
-        <li class="chapter " data-level="1.15" data-path="magnetometer.html">
-            
-            <span><b>1.15.</b> Read the magnetometer</span>
-            
-            
-        </li>
-    
 
             </ul>
             
@@ -412,36 +407,6 @@
             
         </li>
     
-        <li class="chapter " data-level="2.7" data-path="fade_out.html">
-            
-                
-                    <a href="./fade_out.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>2.7.</b>
-                        
-                        Fade out
-                    </a>
-                
-            
-            
-        </li>
-    
-        <li class="chapter " data-level="2.8" data-path="lights_on.html">
-            
-                
-                    <a href="./lights_on.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>2.8.</b>
-                        
-                        Lights on
-                    </a>
-                
-            
-            
-        </li>
-    
 
             </ul>
             
@@ -463,15 +428,75 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="3.1" data-path="count_marbles.html">
+        <li class="chapter " data-level="3.1" data-path="fade_out.html">
             
                 
-                    <a href="./count_marbles.html">
+                    <a href="./fade_out.html">
                         <i class="fa fa-check"></i>
                         
                             <b>3.1.</b>
                         
-                        Count the Marbles
+                        Fade out
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="lights_on.html">
+            
+                
+                    <a href="./lights_on.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Lights on
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="hot.html">
+            
+                
+                    <a href="./hot.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Too hot
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.4" data-path="tilt.html">
+            
+                
+                    <a href="./tilt.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Tilt
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="shake.html">
+            
+                
+                    <a href="./shake.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        Shake
                     </a>
                 
             
@@ -588,7 +613,63 @@
                 
                     <section class="normal" id="section-">
                     
-                        
+                        <h3 id="school">School:</h3>
+<h3 id="students-names">Students&apos; names:</h3>
+<h3 id="points-awarded">Points awarded:</h3>
+<h3 id="judge-s-signature">Judge&apos;s Signature:</h3>
+<p><br>
+<br></p>
+<h1 id="task-3-4-tilt">Task 3.4: Tilt</h1>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th style="text-align:center">Points</th>
+<th>Uses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hard</td>
+<td style="text-align:center">3</td>
+<td>LEDs, Accelerometer</td>
+</tr>
+</tbody>
+</table>
+<h2 id="mission">Mission</h2>
+<p>Make the LEDs light up  when you tilt the Engduino from side-to-side.  </p>
+<p>Sometimes you want to do something when a sensor value is above or below a <em> threshold </em>. In this challenge you will turn some of the LEDs on when you tilt the Engduino from side to side. First you need to measure the acceleration values when the board is flat and then you need to see what happens when you tilt the board. Use the information in the <strong> ACCELEROMETER </strong> sheet to work out how to do this.</p>
+<p><img src="tilt_left.jpg" height="175px" title="Tilt left threshold"></p>
+<h2 id="you-will-need">You will need</h2>
+<ul>
+<li>An Engduino.</li>
+<li>The <strong> ENGDUINO LIBRARIES: THE LEDS </strong> sheet.</li>
+<li>The <strong> ENGDUINO LIBRARIES: ACCELEROMETER </strong> sheet.</li>
+<li>The <strong> ENGDUINO LIBRARIES: IF STATEMENTS </strong> sheet.</li>
+</ul>
+<h2 id="method">Method</h2>
+<ol>
+<li>Read the <strong> ENGDUINO LIBRARIES: THE LEDS </strong> sheet,  the <strong> ACCELEROMETER </strong> sheet and the sheet about <strong> IF STATEMENTS </strong>.</li>
+<li>Open a new sketch.</li>
+<li>Save the sketch with a new name: <code>tilt</code>.</li>
+<li>Write some code to read the acceleration in the x axis and print it to the serial monitor.</li>
+<li>Open the serial monitor. Can you see the accelerometer values being printed? </li>
+<li>Write down the value of the accelerometer readings when the device is flat on the table.</li>
+<li>Tilt the Engduino to the left. What is the accelerometer reading now?  Decide where you want your threshold to be.</li>
+<li>Add some more code so that the LEDs on the left side of the board come on when the accelerometer value reaches the threshold. You should use an <code>if</code> statement. </li>
+<li>You will need another threshold for the right tilt. Tilt the Engduino to the right, what is the accelerometer reading now?  Decide where you want the new threshold to be.</li>
+<li>Now add more code so that the LEDs on the right side come on when the accelerometer value is above the new threshold. </li>
+<li>Put in a short delay just before the end of the main loop and turn all the LEDs <code>OFF</code>.</li>
+</ol>
+<p>Congratulations! Collect your points for this challenge.</p>
+<!---
+Written by Rae Harbird
+<img src="rae.jpeg" alt="Rae Harbird" style="float:left;width:75px;height:75px;">
+<p>
+Rae is a Teaching Fellow at UCL. She likes making things with arduino kit, cycling and baking bread.
+
+-->
+
                     
                     </section>
                 
@@ -598,8 +679,10 @@
         </div>
 
         
-        <a href="./hard_challenges.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Hard challenges"><i class="fa fa-angle-left"></i></a>
+        <a href="./hot.html" class="navigation navigation-prev " aria-label="Previous page: Too hot"><i class="fa fa-angle-left"></i></a>
         
+        
+        <a href="./shake.html" class="navigation navigation-next " aria-label="Next page: Shake"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

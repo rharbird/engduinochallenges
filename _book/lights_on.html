@@ -29,7 +29,7 @@
         
     
     
-    <link rel="next" href="./hard_challenges.html" />
+    <link rel="next" href="./hot.html" />
     
     
     <link rel="prev" href="./fade_out.html" />
@@ -40,7 +40,7 @@
     <body>
         
         
-    <div class="book" data-level="2.8" data-basepath="." data-revision="Wed Jul 08 2015 00:46:28 GMT+0100 (BST)">
+    <div class="book" data-level="3.2" data-basepath="." data-revision="Thu Jul 09 2015 08:42:53 GMT+0100 (BST)">
     
 
 <div class="book-summary">
@@ -296,13 +296,6 @@
             
         </li>
     
-        <li class="chapter " data-level="1.15" data-path="magnetometer.html">
-            
-            <span><b>1.15.</b> Read the magnetometer</span>
-            
-            
-        </li>
-    
 
             </ul>
             
@@ -414,36 +407,6 @@
             
         </li>
     
-        <li class="chapter " data-level="2.7" data-path="fade_out.html">
-            
-                
-                    <a href="./fade_out.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>2.7.</b>
-                        
-                        Fade out
-                    </a>
-                
-            
-            
-        </li>
-    
-        <li class="chapter active" data-level="2.8" data-path="lights_on.html">
-            
-                
-                    <a href="./lights_on.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>2.8.</b>
-                        
-                        Lights on
-                    </a>
-                
-            
-            
-        </li>
-    
 
             </ul>
             
@@ -465,15 +428,75 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="3.1" data-path="count_marbles.html">
+        <li class="chapter " data-level="3.1" data-path="fade_out.html">
             
                 
-                    <a href="./count_marbles.html">
+                    <a href="./fade_out.html">
                         <i class="fa fa-check"></i>
                         
                             <b>3.1.</b>
                         
-                        Count the Marbles
+                        Fade out
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.2" data-path="lights_on.html">
+            
+                
+                    <a href="./lights_on.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Lights on
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="hot.html">
+            
+                
+                    <a href="./hot.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Too hot
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="tilt.html">
+            
+                
+                    <a href="./tilt.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Tilt
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="shake.html">
+            
+                
+                    <a href="./shake.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        Shake
                     </a>
                 
             
@@ -596,28 +619,27 @@
 <h3 id="judge-s-signature">Judge&apos;s Signature:</h3>
 <p><br>
 <br></p>
-<h1 id="task-lights-on">Task: Lights on</h1>
+<h1 id="task-3-2-lights-on">Task 3.2: Lights on</h1>
 <table>
 <thead>
 <tr>
 <th>Level</th>
-<th style="text-align:center">Maximum Points</th>
+<th style="text-align:center">Points</th>
 <th>Uses</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Medium</td>
-<td style="text-align:center">2</td>
+<td>Hard</td>
+<td style="text-align:center">3</td>
 <td>LEDs, Light sensor</td>
 </tr>
 </tbody>
 </table>
 <h2 id="mission">Mission</h2>
-<p>Make the LEDs light up  when it is dark.  Sometimes you want to do something when a sensor value is above or below a <em> threshold </em>. In this challenge you will turn the LEDs on when the light level goes below a certain value. </p>
-<p><img src="threshold.jpg" height="275px" title="Threshold"></p>
-<p>The diagram shows that if the light level is below 30 it is dark.</p>
-<p>First of all you need to measure the light levels in the room. Use the information in the <strong> LIGHT SENSOR </strong> sheet to work out how to do this.</p>
+<p>Make the LEDs light up  when it is dark.  </p>
+<p>Sometimes you want to do something when a sensor value is above or below a <em> threshold </em>. In this challenge you will turn the LEDs on when it&apos;s  dark and we will <em> make </em> it dark by putting a finger over the light sensor.  The diagram below shows that if the light level falls below 30 it is dark although it may be different in the room where you are.  First of all you need to measure the light levels in the room and the light levels when your finger is placed over the sensor. Use the information in the <strong> LIGHT SENSOR </strong> sheet to work out how to do this.</p>
+<p><img src="Threshold.jpg" height="175px" title="Threshold"></p>
 <h2 id="you-will-need">You will need</h2>
 <ul>
 <li>An Engduino.</li>
@@ -630,27 +652,14 @@
 <li>Read the <strong> ENGDUINO LIBRARIES: THE LEDS </strong> sheet,  the <strong> LIGHT SENSOR </strong> sheet and the sheet about <strong> IF STATEMENTS </strong>.</li>
 <li>Open a new sketch.</li>
 <li>Save the sketch with a new name: <code>lightsOn</code>.</li>
-<li>Write down the value of the light sensor reading, use the table below.</li>
+<li>Write some code to read the value from the light sensor and print it to the serial monitor.</li>
+<li>Open the serial monitor. Can you see the light sensor values being printed? </li>
+<li>Write down the value of the light sensor readings.</li>
 <li>Make it dark by putting your finger over the light sensor, write down the value of the light sensor reading now.</li>
-</ol>
-<pre><code>| Normal | Finger over light sensor| Threshold |
-| ------ |------|------|
-| | | | 
-</code></pre><ol>
-<li><p>Add some more code so that the LEDs come on when the light sensor value is below a certain threshold. </p>
-<p> Choose a light sensor value that is close to  the value you noted when you put your finger over the sensor and write it in the table above. </p>
-</li>
-<li><pre><code> int b =  15; // This is the brightness level.
-</code></pre></li>
-<li>In the main loop, set the LEDs to any colour you like with the brightness level set to <code>b</code>.</li>
-<li>Subtract 1 from b like this:
- <code>b = b - 1;</code></li>
-<li>Add a delay of half a second. </li>
-<li>For an extra 2 points, reset <code>b</code> to 15 every time it reaches <code>0</code>. Hint: use an <code>if</code> statement. </li>
-<li>Remember to ask one of the judges if you need help.</li>
+<li>Add some more code so that the LEDs come on when the light sensor value is below a certain threshold. You should use an <code>if</code> statement. </li>
 </ol>
 <p>Continue until you have completed the challenge.</p>
-<p>Congratulations! go and collect your points for this challenge.</p>
+<p>Congratulations! Collect your points for this challenge.</p>
 <!---
 Written by Rae Harbird
 <img src="rae.jpeg" alt="Rae Harbird" style="float:left;width:75px;height:75px;">
@@ -671,7 +680,7 @@ Rae is a Teaching Fellow at UCL. She likes making things with arduino kit, cycli
         <a href="./fade_out.html" class="navigation navigation-prev " aria-label="Previous page: Fade out"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="./hard_challenges.html" class="navigation navigation-next " aria-label="Next page: Hard challenges"><i class="fa fa-angle-right"></i></a>
+        <a href="./hot.html" class="navigation navigation-next " aria-label="Next page: Too hot"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

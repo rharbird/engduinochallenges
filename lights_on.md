@@ -4,16 +4,14 @@
 
 | Level| Points | Uses |
 | ------ |:------:|------|
-| Medium | 3 | LEDs, Light sensor |
+| Hard | 3 | LEDs, Light sensor |
 
 ## Mission
-Make the LEDs light up  when it is dark.  Sometimes you want to do something when a sensor value is above or below a * threshold *. In this challenge you will turn the LEDs on when the light level goes below a certain value. 
+Make the LEDs light up  when it is dark.  
 
-<img src="threshold.jpg" height="275px" title="Threshold">
+Sometimes you want to do something when a sensor value is above or below a * threshold *. In this challenge you will turn the LEDs on when it's  dark and we will * make * it dark by putting a finger over the light sensor.  The diagram below shows that if the light level falls below 30 it is dark although it may be different in the room where you are.  First of all you need to measure the light levels in the room and the light levels when your finger is placed over the sensor. Use the information in the ** LIGHT SENSOR ** sheet to work out how to do this.
 
-The diagram shows that if the light level is below 30 it is dark.
-
-First of all you need to measure the light levels in the room. Use the information in the ** LIGHT SENSOR ** sheet to work out how to do this.
+<img src="Threshold.jpg" height="175px" title="Threshold">
 
 ## You will need
 * An Engduino.
@@ -27,34 +25,15 @@ First of all you need to measure the light levels in the room. Use the informati
 4. Save the sketch with a new name: ```lightsOn```.
 5. Write some code to read the value from the light sensor and print it to the serial monitor.
 6. Open the serial monitor. Can you see the light sensor values being printed? 
-6. Write down the value of the light sensor reading, use the table below.
-7. Make it dark by putting your finger over the light sensor, write down the value of the light sensor reading now.
-
-
-	| Normal | Finger over light sensor| Threshold |
-	| ------ |------|------|
-	| | | | 
-
-7. Add some more code so that the LEDs come on when the light sensor value is below a certain threshold. You should use an ```if``` statement, it will
-look similar to this: 
-	```
-	if (v <  
-
-	```
-6. In the main loop, set the LEDs to any colour you like with the brightness level set to ```b```.
-7. Subtract 1 from b like this:
-	```b = b - 1;```
-8. Add a delay of half a second. 
-9. For an extra 2 points, reset ```b``` to 15 every time it reaches ```0```. Hint: use an ```if``` statement. 
-10. Remember to ask one of the judges if you need help.
-
+7. Write down the value of the light sensor readings.
+8. Make it dark by putting your finger over the light sensor, write down the value of the light sensor reading now.
+9. Add some more code so that the LEDs come on when the light sensor value is below a certain threshold. You should use an ```if``` statement. 
 
 
 Continue until you have completed the challenge.
 
 
-
-Congratulations! go and collect your points for this challenge.
+Congratulations! Collect your points for this challenge.
 
 <!---
 {% include "./rae.md" %}

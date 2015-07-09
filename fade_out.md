@@ -3,7 +3,7 @@
 # Task 3.1: Fade out 
 | Level| Maximum Points | Uses |
 | ------ |:------:|------|
-| Medium | 3 | LEDs |
+| Hard | 3 | LEDs |
 
 ## Mission
 Make the LEDs fade in and out.

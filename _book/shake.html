@@ -5,9 +5,9 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Get started | Engduino Challenges</title>
+        <title>Shake | Engduino Challenges</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="The Engduino is just a simple, small, computer that is capable of measuring quite a lot of interesting things about the real world and that has a bunch of LEDs that can be used to provide feedback to the user. This booklet contains a series of challenges that you can use to get to know some of the features of your Engduino. Before you make a start you should complete the Traffic Lights Exercise.">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 2.1.0">
         
         
@@ -29,8 +29,8 @@
         
     
     
-    <link rel="next" href="./easy_challenges.html" />
     
+    <link rel="prev" href="./tilt.html" />
     
 
         
@@ -38,7 +38,7 @@
     <body>
         
         
-    <div class="book" data-level="0" data-basepath="." data-revision="Thu Jul 09 2015 08:42:53 GMT+0100 (BST)">
+    <div class="book" data-level="3.5" data-basepath="." data-revision="Thu Jul 09 2015 08:42:53 GMT+0100 (BST)">
     
 
 <div class="book-summary">
@@ -55,7 +55,7 @@
 
         
     
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
                     <a href="./index.html">
@@ -486,7 +486,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.5" data-path="shake.html">
+        <li class="chapter active" data-level="3.5" data-path="shake.html">
             
                 
                     <a href="./shake.html">
@@ -611,33 +611,59 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="engduino-challenges">Engduino Challenges</h1>
-<p>The Engduino is just a simple, small, computer that is capable of measuring quite a lot of interesting things about the real world and that has a bunch of LEDs that can be used to provide feedback to the user. This booklet contains a series of challenges that you can use to get to know some of the features of your Engduino. Before you make a start you should complete the Traffic Lights Exercise.</p>
-<h2 id="overview-of-the-engduino-board">Overview of the Engduino board</h2>
-<p>For those who know about these things, the Engduino is, at heart, an Arduino (just a brand of simple computer). Your Engduino board comes pre-fitted with some sensors and LEDs so we can get straight into experimenting with programming the board without needing to do any construction beforehand.</p>
+                        <h3 id="school">School:</h3>
+<h3 id="students-names">Students&apos; names:</h3>
+<h3 id="points-awarded">Points awarded:</h3>
+<h3 id="judge-s-signature">Judge&apos;s Signature:</h3>
+<p><br>
+<br></p>
+<h1 id="task-3-5-shake">Task 3.5: Shake</h1>
 <table>
 <thead>
 <tr>
-<th><img src="front.JPG" alt="Front" style="float:left;width:350px;height:250px;"></th>
-<th><img src="back.JPG" alt="Back" style="float:left;width:350px;height:250px;"></th>
+<th>Level</th>
+<th style="text-align:center">Points</th>
+<th>Uses</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Top</td>
-<td>Bottom</td>
+<td>Hard</td>
+<td style="text-align:center">3</td>
+<td>LEDs, Accelerometer</td>
 </tr>
 </tbody>
 </table>
-<p>Figure 1: The top and bottom of your Engduino</p>
-<p>On the one side of your Engduino you have 16 LED lights that have adjustable brightness and can be set to various mixtures of the three primary colours (of light): Red, Green and Blue.</p>
-<p><img src="engduino.jpg" alt="Engduino"></p>
-<p>Figure 2:  16 Red, Green, Blue LEDs on one side of the board</p>
-<h2 id="the-engduino">The Engduino</h2>
-<p>The LEDS are numbered 0 &#x2013; 15 and their exact positions can be seen below. You will need this information when you program the LEDs. </p>
-<p><img src="bigE.jpg" alt="Engduino" style="height:800px;">
-<br>
-Figure 3: Schematic showing the top of the board </p>
+<h2 id="mission">Mission</h2>
+<p>Make the LEDs light up  when you shake the Engduino.  </p>
+<p>Sometimes you want to do something when a sensor value is above or below a <em> threshold </em>. In this challenge you will turn some of the LEDs on when you shake the Engduino. First you need to calculate the overall acceleration when the board is still and then you need to see what happens when you shake the board. Use the information in the <strong> ACCELEROMETER </strong> sheet to work out how to do this.</p>
+<h2 id="you-will-need">You will need</h2>
+<ul>
+<li>An Engduino.</li>
+<li>The <strong> ENGDUINO LIBRARIES: THE LEDS </strong> sheet.</li>
+<li>The <strong> ENGDUINO LIBRARIES: ACCELEROMETER </strong> sheet.</li>
+<li>The <strong> ENGDUINO LIBRARIES: IF STATEMENTS </strong> sheet.</li>
+</ul>
+<h2 id="method">Method</h2>
+<ol>
+<li>Read the <strong> ENGDUINO LIBRARIES: THE LEDS </strong> sheet,  the <strong> ACCELEROMETER </strong> sheet and the sheet about <strong> IF STATEMENTS </strong>.</li>
+<li>Open a new sketch.</li>
+<li>Save the sketch with a new name: <code>shake</code>.</li>
+<li>Write some code to calculate the overall acceleration print it to the serial monitor. </li>
+<li>Open the serial monitor. Can you see the values being printed? </li>
+<li>Write down the value of the acceleration when the device is flat on the table.</li>
+<li>Shake the Engduino. What is the accelerometer reading now?  Decide where you want your threshold to be.</li>
+<li>Add some more code so that the LEDs light up when the accelerometer value reaches the threshold. You should use an <code>if</code> statement. </li>
+<li>Put in a short delay just before the end of the main loop and turn all the LEDs <code>OFF</code>.</li>
+</ol>
+<p>Congratulations! Collect your points for this challenge.</p>
+<!---
+Written by Rae Harbird
+<img src="rae.jpeg" alt="Rae Harbird" style="float:left;width:75px;height:75px;">
+<p>
+Rae is a Teaching Fellow at UCL. She likes making things with arduino kit, cycling and baking bread.
+
+-->
 
                     
                     </section>
@@ -648,8 +674,8 @@ Figure 3: Schematic showing the top of the board </p>
         </div>
 
         
+        <a href="./tilt.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Tilt"><i class="fa fa-angle-left"></i></a>
         
-        <a href="./easy_challenges.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Easy challenges"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
