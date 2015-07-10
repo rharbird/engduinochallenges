@@ -6,7 +6,7 @@
 | Hard | 3 | LEDs |
 
 ## Mission
-Make the LEDs fade in and out.
+Make the LEDs fade and then become brighter.
 
 ## You will need
 * An Engduino.
@@ -24,9 +24,7 @@ Make the LEDs fade in and out.
 6. In the main loop, set the LEDs to any colour you like with the brightness level set to ```b```.
 7. Subtract 1 from b like this:
 	```b = b - 1;```
-8. Add a delay of half a second. 
-9. For an extra 2 points, reset ```b``` to 15 every time it reaches ```0```. Hint: use an ```if``` statement. 
-10. Remember to ask one of the judges if you need help.
+8. Reset ```b``` to 15 every time it reaches ```0```. Hint: use an ```if``` statement. 
 
 
 Continue until you have completed the challenge.

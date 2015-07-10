@@ -4,7 +4,7 @@
 
 | Level| Points | Uses |
 | ------ |:------:|------|
-| Hard | 3 | LEDs, Heat sensor|
+| Hard | 3 | LEDs, Thermistor |
 
 ## Mission
 Make the LEDs light up  when you hold the heat sensor.  

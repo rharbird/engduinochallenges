@@ -1,6 +1,6 @@
 {% include "./header.md" %}
 
-# Task 1.5: Random Colours 
+# Task 1.5: Random colours 
 | Level| Points | Uses |
 | ------ |:------:|------|
 | Medium | 2 | LEDs |
@@ -27,9 +27,6 @@ Set all the LEDs to a random colour, delay for one second then repeat with a dif
 	This code returns a random number for each of the variables r, g, b in the range that is one less than the second number in the brackets.
 
 6. Make the LEDs light up with the colour.
-7. Include the one second delay before starting again.
-
-
 
 Continue until you have completed the challenge.
 

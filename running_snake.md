@@ -1,6 +1,6 @@
 {% include "./header.md" %}
 
-# Task 2.1: Running Snake 
+# Task 2.1: Running snake 
 | Level| Points | Uses |
 | ------ |:------:|------|
 | Medium | 2 | LEDs |
@@ -19,15 +19,15 @@ Make a snake run around the board.
 2. Read the  ** CONTROL FLOW: FOR STATEMENTS ** sheet.
 3. Open a new sketch.
 4. Save the sketch with a new name: ```runningSnake```.
-5. Use a ```for``` loop to set the LEDs to ```RED``` one-by-one.
-6. Your snake is only 1 LED long. Now make your snake 3 LEDs long. *Hint:* You might need to use some extra curly brackets like this:
-
+5. Use a ```for``` loop to set the LEDs to ```RED``` one-by-one. *Hint:* You might need to use some extra curly brackets like this:
 ```
 for (i = 0; i < 16; i++)
 {
        ...Type your code in here.
 }
 ```
+6. Your snake is only 1 LED long. Now make your snake 3 LEDs long. 
+
 
 Continue until you have completed the challenge.
 

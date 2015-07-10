@@ -24,12 +24,12 @@ The acceleration that the Engduino measures could be thought of as being compose
 
 Any action that involves a change in direction – any sufficiently large vibration – can be measured with an accelerometer. Likewise, we can know whether the Engduino is face up or face down, or being turned end over end. The Engduino measures acceleration in three directions : x, y, z, like this:
 
-![Engduino showing axes](engduino_with_axes.jpg)
+<img src="engduino_with_axes.jpg" height="250px" title="Acceleration forces">
 1. Read the ** ENGDUINO LIBRARIES: THE ACCELEROMETER ** sheet.
 2. Open a new sketch.
 3. Save the sketch with a new name: ```accelerometer```.
 4. Write some code to read the accelerometer and print out the values for the forces in the x, y, and z axes.
-5. For an extra point, describe to the judge how to change the 'z' values to be negative.  What is happening here?
+5. Describe to the judge how to change the 'z' values to be negative.  What is happening here?
 
 
 Congratulations! Collect your points for this challenge.

@@ -40,7 +40,7 @@
     <body>
         
         
-    <div class="book" data-level="2.2" data-basepath="." data-revision="Thu Jul 09 2015 20:24:13 GMT+0100 (BST)">
+    <div class="book" data-level="2.2" data-basepath="." data-revision="Fri Jul 10 2015 07:18:24 GMT+0100 (BST)">
     
 
 <div class="book-summary">
@@ -641,14 +641,21 @@
 <h2 id="you-will-need">You will need</h2>
 <ul>
 <li>An Engduino.</li>
-<li>The <strong> ENGDUINO LIBRARIES: THE LEDS </strong> sheet.</li>
+<li>The <strong> ENGDUINO LIBRARIES: THE LEDS </strong> sheet and the <strong> CONTROL FLOW: FOR STATEMENTS </strong> sheet.</li>
 </ul>
 <h2 id="method">Method</h2>
 <ol>
 <li>Read the <strong> ENGDUINO LIBRARIES: THE LEDS </strong> sheet.</li>
+<li>Read the  <strong> CONTROL FLOW: FOR STATEMENTS </strong> sheet.</li>
 <li>Open a new sketch.</li>
 <li>Save the sketch with a new name: <code>faster</code>.</li>
 <li>First of all, make an LED run around the board by lighting up the LEDs in sequence with a delay in between.  </li>
+<li><p>Use a <code>for</code> loop to set the LEDs to <code>RED</code> one-by-one. <em>Hint:</em> You might need to use some extra curly brackets like this:</p>
+<pre><code>for (i = 0; i &lt; 16; i++)
+{
+    ...Type your code in here.
+}
+</code></pre></li>
 <li><p>When you have that working, you need to gradually reduce the delay so that the LEDs move faster and faster. Start by creating a variable for the delay, let&apos;s call it <code>myDelay</code>. You need to put this underneath the <code>#include</code> statements at the top of the sketch so that it looks like this:</p>
 <pre><code> #include &lt;EngduinoLEDs.h&gt;
 
