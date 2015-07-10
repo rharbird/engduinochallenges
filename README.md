@@ -5,6 +5,7 @@ The Engduino is just a simple, small, computer that is capable of measuring quit
 For those who know about these things, the Engduino is, at heart, an Arduino (just a brand of simple computer). Your Engduino board comes pre-fitted with some sensors and LEDs so we can get straight into experimenting with programming the board without needing to do any construction beforehand.
 
 
+
 | <img src="front.JPG" alt="Front" style="float:left;width:350px;height:250px;"> | <img src="back.JPG" alt="Back" style="float:left;width:350px;height:250px;"> |
 |-----|------|
 | Top | Bottom |
@@ -19,6 +20,10 @@ On the one side of your Engduino you have 16 LED lights that have adjustable bri
 
 Figure 2:  16 Red, Green, Blue LEDs on one side of the board
 
+<br>
+<br>
+<br>
+<br>
 <br>
 
 # Schematic 
